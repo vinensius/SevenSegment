@@ -1,0 +1,10 @@
+# Writing all output to: C:\Users\Jonz PC\Documents\seven segment\seven segment.log
+set pad_wire_necking on
+bus diagonal
+fanout 10
+route 50
+clean 10
+filter 5
+recorner diagonal
+status_file
+
